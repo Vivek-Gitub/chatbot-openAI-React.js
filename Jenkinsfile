@@ -4,6 +4,7 @@ pipeline{
     stage("build"){
       steps{
         echo 'building the application'
+        echo 'soome change for tseting automatically Jenkins on each comment'
       }
     }
       stage("test"){
